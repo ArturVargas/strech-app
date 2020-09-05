@@ -1,3 +1,17 @@
-<p>
-  form works!
-</p>
+<div class="my-4" *ngFor="let area of testAreas">
+  <div class="card" style="width: 22rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body text-center">
+      <h5 class="card-title">{{area.title}}</h5>
+      <p class="card-text">{{area.description}}</p>
+      <div class="row justify-content-around">
+        <button class="col-5 btn btn-primary">Cumplido</button>
+        <button class="col-5 btn btn-warning">Fallido</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row justify-content-between">
+  <a class="col-5 btn btn-outline-secondary">Prev</a>
+  <a class="col-5 btn btn-outline-success" routerLink='/strech-areas'>Next</a>
+</div>

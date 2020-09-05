@@ -4,15 +4,18 @@ import { RouterModule } from '@angular/router';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormComponent } from './form/form.component';
+import { CalendarConfigComponent } from './calendar-config/calendar-config.component';
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    FormComponent
+    FormComponent,
+    CalendarConfigComponent
   ],
   exports: [
     NavbarComponent,
-    FormComponent
+    FormComponent,
+    CalendarConfigComponent
   ],
   imports: [
     CommonModule,
