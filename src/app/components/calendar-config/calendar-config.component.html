@@ -1,1 +1,25 @@
-<p>calendar-config works!</p>
+
+<div class="text-center my-5">
+  <h2>Selecciona la fecha para iniciar el reto y la hora.</h2>
+  <p>
+    Recibiras un recordatorio 5 minutos antes de la hora seleccionada, durante 22 dias
+    a partir de la fecha de inicio recuerda tener disponibles al menos 15 minutos para realizar los ejercicios.
+  </p>
+</div>
+<div class="my-3">
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Fecha Inicio</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Hora</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="row justify-content-between my-4">
+      <a class="col-4 btn btn-outline-secondary" routerLink='/strech-areas'>Prev</a>
+      <a class="col-4 btn btn-outline-success" routerLink='/exercises'>Next</a>
+    </div>
+  </form>
+</div>
